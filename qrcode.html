@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Picture List</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .picture-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .picture-list li {
+            margin: 20px;
+        }
+
+        .picture-list img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <ul class="picture-list">
+        <li><img src="qrcode/cathering.png" alt="Cathering"></li>
+        <li><img src="qrcode/drink.png" alt="Drink"></li>
+        <li><img src="qrcode/food.png" alt="Food"></li>
+    </ul>
+</body>
+</html>
